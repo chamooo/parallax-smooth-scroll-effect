@@ -85,11 +85,11 @@ body {
     transition: var(--transition);
     transform: translate3d(0, calc(var(--scrollTop) / 2), 0);
     will-change: transform;
-    line-height: calc(var(--index) * 2.9);
+
     font-weight: 900;
     text-transform: uppercase;
     letter-spacing: calc(var(--index) / 2);
-    margin-top: calc(var(--index) * -5);
+    margin-top: calc(var(--index) * -.75);
     color: var(--textColor);
     text-shadow: 0 0 15px #9e7d35;
     
@@ -120,7 +120,7 @@ body {
 
 .main-article__header {
     text-transform: uppercase;
-    font-size: calc(var(--index) * 1.8);
+    font-size: calc(var(--index) * 1.5);
     letter-spacing: calc(var(--index) / 7);
     margin-bottom: calc(var(--index) * 1 );
     transition: var(--transition);
@@ -131,7 +131,7 @@ body {
 
 .main-article__paragraph {
     max-width: calc(var(--index) * 40);
-    font-size: calc(var(--index) * 1);
+    font-size: calc(var(--index) * 0.9);
     transition: var(--transition);
     transform: translate3d(0, calc(var(--scrollTop) / -9.5), 0);
     will-change: transform;
